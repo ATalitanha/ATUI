@@ -1,0 +1,30 @@
+{
+  "name": "aurora-ui",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Premium, Futuristic, and Architectural React Design System",
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22.22.1",
+    "pnpm": ">=10.30.3"
+  },
+  "scripts": {
+    "build": "pnpm --filter \"@aurora-ui/*\" build",
+    "dev": "pnpm --filter \"@aurora-ui/ui\" dev",
+    "lint": "pnpm --filter \"@aurora-ui/*\" lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "storybook": "pnpm --filter \"storybook\" dev",
+    "docs:dev": "pnpm --filter \"docs\" dev",
+    "docs:build": "pnpm --filter \"docs\" build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.0.0",
+    "tsup": "^8.3.6"
+  }
+}
