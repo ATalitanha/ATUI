@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Builds and cache
+dist/
+build/
+.next/
+.turbo/
+out/
+coverage/
+.tsup/
+
+# IDE and System files
+.DS_Store
+*.log
+.env
+.env.*
+.vscode/
+.idea/
