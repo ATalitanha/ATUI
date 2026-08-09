@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { cn } from "@aurora-ui/utils";
-import { ChevronLeftIcon, ChevronRightIcon, CalendarIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { ChevronLeftIcon, ChevronRightIcon, CalendarIcon } from "@atui/icons";
 import { Button } from "../primitives/Button/Button";
 import { Popover } from "../overlays/Overlays";
 

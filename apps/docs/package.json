@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aurora-ui/icons": "workspace:*",
-    "@aurora-ui/themes": "workspace:*",
-    "@aurora-ui/tokens": "workspace:*",
-    "@aurora-ui/ui": "workspace:*",
-    "@aurora-ui/utils": "workspace:*",
+    "@atui/icons": "workspace:*",
+    "@atui/themes": "workspace:*",
+    "@atui/tokens": "workspace:*",
+    "@atui/ui": "workspace:*",
+    "@atui/utils": "workspace:*",
     "next": "^15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

@@ -1,5 +1,5 @@
 {
-  "name": "@aurora-ui/hooks",
+  "name": "@atui/hooks",
   "version": "0.1.0",
   "private": true,
   "main": "./dist/index.js",
@@ -9,7 +9,7 @@
     "build": "tsup src/index.ts --format cjs,esm --dts --clean"
   },
   "dependencies": {
-    "@aurora-ui/utils": "workspace:*"
+    "@atui/utils": "workspace:*"
   },
   "peerDependencies": {
     "react": "^19.0.0"

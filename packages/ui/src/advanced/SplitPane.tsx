@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 export interface SplitPaneProps {
   direction?: "horizontal" | "vertical";

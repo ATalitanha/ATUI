@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 // --- SEPARATOR / DIVIDER ---
 export interface SeparatorProps extends React.HTMLAttributes<HTMLDivElement> {

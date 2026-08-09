@@ -1,8 +1,8 @@
 import React from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
-import { cn } from "@aurora-ui/utils";
-import { BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon, CodeIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon, CodeIcon } from "@atui/icons";
 import { Button } from "../primitives/Button/Button";
 
 export interface RichTextEditorProps {
@@ -12,7 +12,7 @@ export interface RichTextEditorProps {
 }
 
 export const RichTextEditor: React.FC<RichTextEditorProps> = ({
-  content = "<p>Aurora Rich Text Editor. Styled perfectly with Aurora tokens.</p>",
+  content = "<p>ATUI Rich Text Editor. Styled perfectly with ATUI tokens.</p>",
   onChange,
   className,
 }) => {

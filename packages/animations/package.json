@@ -1,5 +1,5 @@
 {
-  "name": "@aurora-ui/animations",
+  "name": "@atui/animations",
   "version": "0.1.0",
   "private": true,
   "main": "./dist/index.js",

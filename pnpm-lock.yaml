@@ -32,19 +32,19 @@ importers:
 
   apps/docs:
     dependencies:
-      '@aurora-ui/icons':
+      '@atui/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@aurora-ui/themes':
+      '@atui/themes':
         specifier: workspace:*
         version: link:../../packages/themes
-      '@aurora-ui/tokens':
+      '@atui/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@aurora-ui/ui':
+      '@atui/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@aurora-ui/utils':
+      '@atui/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       next:
@@ -99,7 +99,7 @@ importers:
 
   packages/hooks:
     dependencies:
-      '@aurora-ui/utils':
+      '@atui/utils':
         specifier: workspace:*
         version: link:../utils
     devDependencies:
@@ -137,7 +137,7 @@ importers:
 
   packages/themes:
     dependencies:
-      '@aurora-ui/tokens':
+      '@atui/tokens':
         specifier: workspace:*
         version: link:../tokens
     devDependencies:
@@ -159,22 +159,22 @@ importers:
 
   packages/ui:
     dependencies:
-      '@aurora-ui/animations':
+      '@atui/animations':
         specifier: workspace:*
         version: link:../animations
-      '@aurora-ui/hooks':
+      '@atui/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@aurora-ui/icons':
+      '@atui/icons':
         specifier: workspace:*
         version: link:../icons
-      '@aurora-ui/themes':
+      '@atui/themes':
         specifier: workspace:*
         version: link:../themes
-      '@aurora-ui/tokens':
+      '@atui/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@aurora-ui/utils':
+      '@atui/utils':
         specifier: workspace:*
         version: link:../utils
       '@floating-ui/react':

@@ -1,7 +1,7 @@
 "use client";
 
 import "../app/globals.css";
-import { AuroraProvider } from "@aurora-ui/ui";
+import { AuroraProvider } from "@atui/ui";
 
 export default function RootLayout({
   children,

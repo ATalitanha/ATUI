@@ -1,4 +1,4 @@
-import { tokens } from "@aurora-ui/tokens";
+import { tokens } from "@atui/tokens";
 
 export type ThemeType = "light" | "dark" | "high-contrast";
 

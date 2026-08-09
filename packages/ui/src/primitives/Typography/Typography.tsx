@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 // Poly-wrapper to allow custom tags
 export interface TextProps extends React.HTMLAttributes<HTMLSpanElement> {

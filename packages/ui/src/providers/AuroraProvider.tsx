@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { themes, type ThemeType } from "@aurora-ui/themes";
+import { themes, type ThemeType } from "@atui/themes";
 
 interface AuroraContextProps {
   theme: ThemeType;

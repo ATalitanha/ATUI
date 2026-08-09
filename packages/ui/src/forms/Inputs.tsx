@@ -1,5 +1,5 @@
 import React, { forwardRef, useState } from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 // --- BASE INPUT ---
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
