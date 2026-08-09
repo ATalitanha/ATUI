@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 import {
   HomeIcon,
   SettingsIcon,
@@ -10,7 +10,7 @@ import {
   MenuIcon,
   ArrowRightIcon,
   CheckIcon,
-} from "@aurora-ui/icons";
+} from "@atui/icons";
 import { Button } from "../primitives/Button/Button";
 import { Card } from "../primitives/Layout/Layout";
 
@@ -36,7 +36,7 @@ export const DashboardLayout: React.FC<{
       >
         <div className="p-5 border-b border-[var(--aurora-border-subtle)] flex items-center gap-2">
           <div className="h-6.5 w-6.5 rounded bg-[var(--aurora-primary)]" />
-          <span className="font-extrabold tracking-wider text-sm uppercase">Aurora UI</span>
+          <span className="font-extrabold tracking-wider text-sm uppercase">ATUI</span>
         </div>
         <div className="flex-1 p-4 space-y-1.5 overflow-y-auto">
           {sidebarContent || (
@@ -73,7 +73,7 @@ export const DashboardLayout: React.FC<{
           </div>
           <div className="flex items-center gap-3">
             <div className="h-8 w-8 rounded-full bg-[var(--aurora-primary-subtle)] border border-[var(--aurora-primary-border)] flex items-center justify-center font-bold text-xs text-[var(--aurora-fg-primary)]">
-              AU
+              AT
             </div>
           </div>
         </header>
@@ -97,7 +97,7 @@ export const HeroSection: React.FC<{
   onCtaClick?: () => void;
 }> = ({
   title = "Intelligent Architecture for Breathtaking Interfaces",
-  subtitle = "Aurora UI is a timeless design system, crafted geometrically to unlock creative momentum with zero configuration overhead.",
+  subtitle = "ATUI is a timeless design system, crafted geometrically to unlock creative momentum with zero configuration overhead.",
   ctaText = "Initiate Experience",
   onCtaClick,
 }) => {

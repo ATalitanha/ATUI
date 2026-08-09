@@ -1,5 +1,5 @@
 {
-  "name": "@aurora-ui/ui",
+  "name": "@atui/ui",
   "version": "0.1.0",
   "private": true,
   "main": "./dist/index.js",
@@ -9,12 +9,12 @@
     "build": "tsup src/index.ts --format cjs,esm --dts --clean"
   },
   "dependencies": {
-    "@aurora-ui/tokens": "workspace:*",
-    "@aurora-ui/themes": "workspace:*",
-    "@aurora-ui/utils": "workspace:*",
-    "@aurora-ui/hooks": "workspace:*",
-    "@aurora-ui/animations": "workspace:*",
-    "@aurora-ui/icons": "workspace:*",
+    "@atui/tokens": "workspace:*",
+    "@atui/themes": "workspace:*",
+    "@atui/utils": "workspace:*",
+    "@atui/hooks": "workspace:*",
+    "@atui/animations": "workspace:*",
+    "@atui/icons": "workspace:*",
     "@floating-ui/react": "^0.27.4",
     "@tanstack/react-table": "^8.21.2",
     "@tanstack/react-virtual": "^3.11.2",

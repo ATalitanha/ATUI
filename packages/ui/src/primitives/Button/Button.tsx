@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import { motion } from "framer-motion";
-import { cn, cva, type VariantProps } from "@aurora-ui/utils";
-import { LoaderIcon } from "@aurora-ui/icons";
+import { cn, cva, type VariantProps } from "@atui/utils";
+import { LoaderIcon } from "@atui/icons";
 
 export const buttonVariants = cva(
   "inline-flex items-center justify-center font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-40 select-none active:scale-[0.98]",

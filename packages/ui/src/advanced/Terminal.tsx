@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 export interface TerminalLine {
   text: string;
@@ -15,8 +15,8 @@ export interface TerminalProps {
 }
 
 export const Terminal: React.FC<TerminalProps> = ({
-  welcomeMessage = "Welcome to Aurora Terminal v1.0. Ready.",
-  prompt = "aurora-user@host:~$",
+  welcomeMessage = "Welcome to ATUI Terminal v1.0. Ready.",
+  prompt = "atui-user@host:~$",
   onCommand,
   autocompleteCommands = ["help", "clear", "themes", "about", "tokens"],
   className,
@@ -68,12 +68,12 @@ export const Terminal: React.FC<TerminalProps> = ({
       } else if (cmd.toLowerCase() === "themes") {
         setLines((prev) => [
           ...prev,
-          { text: "Aurora UI supports Light, Dark, and High Contrast runtime themes.", type: "success" }
+          { text: "ATUI supports Light, Dark, and High Contrast runtime themes.", type: "success" }
         ]);
       } else if (cmd.toLowerCase() === "about") {
         setLines((prev) => [
           ...prev,
-          { text: "Aurora UI - A premium architectural design system ecosystem built with React 19.", type: "output" }
+          { text: "ATUI - A premium architectural design system ecosystem built with React 19.", type: "output" }
         ]);
       } else {
         setLines((prev) => [

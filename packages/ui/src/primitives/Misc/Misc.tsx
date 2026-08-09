@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 // --- LINK ---
 export interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {

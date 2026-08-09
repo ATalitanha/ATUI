@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 // --- FIELD ---
 export interface FieldProps extends React.HTMLAttributes<HTMLDivElement> {

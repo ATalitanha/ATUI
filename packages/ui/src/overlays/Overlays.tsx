@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "@aurora-ui/utils";
-import { CloseIcon, InfoIcon, AlertCircleIcon, CheckIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { CloseIcon, InfoIcon, AlertCircleIcon, CheckIcon } from "@atui/icons";
 
 // ============================================================================
 // --- TOAST SERVICE & PROVIDER ---

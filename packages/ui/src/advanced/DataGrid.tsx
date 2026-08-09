@@ -10,8 +10,8 @@ import {
   type ColumnDef,
   type SortingState,
 } from "@tanstack/react-table";
-import { cn } from "@aurora-ui/utils";
-import { ChevronDownIcon, ChevronUpIcon, SearchIcon, ArrowLeftIcon, ArrowRightIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { ChevronDownIcon, ChevronUpIcon, SearchIcon, ArrowLeftIcon, ArrowRightIcon } from "@atui/icons";
 import { Button } from "../primitives/Button/Button";
 
 export interface DataGridProps<TData> {

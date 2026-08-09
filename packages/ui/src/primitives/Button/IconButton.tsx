@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { Button, type ButtonProps } from "./Button";
-import { cn } from "@aurora-ui/utils";
+import { cn } from "@atui/utils";
 
 export interface IconButtonProps extends Omit<ButtonProps, "leadingIcon" | "trailingIcon"> {
   "aria-label": string;

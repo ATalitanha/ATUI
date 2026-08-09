@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "@aurora-ui/utils";
-import { PlusIcon, TrashIcon, ChevronLeftIcon, ChevronRightIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { PlusIcon, TrashIcon, ChevronLeftIcon, ChevronRightIcon } from "@atui/icons";
 import { Button } from "../primitives/Button/Button";
 import { Card } from "../primitives/Layout/Layout";
 
@@ -120,7 +120,7 @@ export const KanbanBoard: React.FC<KanbanBoardProps> = ({
   return (
     <div className={cn("space-y-6 w-full overflow-x-auto pb-4", className)}>
       <div className="flex items-center justify-between">
-        <h3 className="text-xl font-bold text-[var(--aurora-fg-base)]">Aurora Kanban Workspace</h3>
+        <h3 className="text-xl font-bold text-[var(--aurora-fg-base)]">ATUI Kanban Workspace</h3>
         <Button onClick={addColumn} size="sm" variant="soft" leadingIcon={<PlusIcon size={14} />}>
           Add Column
         </Button>

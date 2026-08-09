@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import { cn } from "@aurora-ui/utils";
-import { FileIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { FileIcon } from "@atui/icons";
 
 // --- FILE UPLOADER ---
 export interface FileUploaderProps {

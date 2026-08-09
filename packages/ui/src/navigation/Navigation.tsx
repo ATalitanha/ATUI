@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { cn } from "@aurora-ui/utils";
-import { ChevronRightIcon } from "@aurora-ui/icons";
+import { cn } from "@atui/utils";
+import { ChevronRightIcon } from "@atui/icons";
 
 // ============================================================================
 // --- BREADCRUMB ---
